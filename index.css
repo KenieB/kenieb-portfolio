@@ -1,6 +1,6 @@
-@import "/src/assets/fonts/golden-ratio/GoldenRatio.css";
-@import "/src/assets/fonts/sogeh/Sogeh-ALL.css";
-@import "/src/assets/fonts/nervesans/Nervesans.css";
+@import "/src/_assets/fonts/golden-ratio/GoldenRatio.css";
+@import "/src/_assets/fonts/sogeh/Sogeh-ALL.css";
+@import "/src/_assets/fonts/nervesans/Nervesans.css";
 
 header {
   font-family: "GoldenRatioBold";
@@ -16,14 +16,14 @@ header {
 }
 
 .nav-link {
-  font-size: 1.5rem;
+  font-size: 2rem;
   align-self: center;
   text-align: center;
 }
 
 .main-nav-link {
   color: #ffcb69; /* --bs-light #ffeccc 255, 236, 204 */
-  text-shadow: 0.5px 1px rgba(255, 236, 204, 0.4); /* --bs-warning #ffcb69 255, 203, 105 */ 
+  text-shadow: 0.5px 1px rgba(255, 236, 204, 0.4); /* --bs-warning #ffcb69 255, 203, 105 */
 }
 
 body {
@@ -34,4 +34,15 @@ body {
 
 .h-body-lowlight {
   font-family: "SogehThin";
+}
+
+@media (orientation: portrait) {
+  #layout-container {
+    min-height: 84vh;
+  }
+}
+@media (orientation: landscape) {
+  #layout-container {
+    min-height: 78vh;
+  }
 }

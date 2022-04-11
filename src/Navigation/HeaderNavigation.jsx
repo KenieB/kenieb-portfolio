@@ -2,11 +2,17 @@ import { Container, Navbar, Nav } from "react-bootstrap";
 
 function HeaderNavigation() {
   return (
-    <Navbar sticky="top" collapseOnSelect expand="lg" bg="info" className="bg-opacity-25">
-      <Container className="ms-lg-1 me-0">
+    <Navbar
+      sticky="top"
+      collapseOnSelect
+      expand="lg"
+      bg="info"
+      className="bg-opacity-25"
+    >
+      <Container className="ms-1 me-0">
         <Navbar.Brand href="/" className="text-light me-0">
           <img
-            src="/src/assets/images/avatar.svg"
+            src="/src/_assets/images/avatar.svg"
             width="125"
             className="d-inline-flex align-middle"
             alt="Developer KenieB logo"
@@ -24,14 +30,14 @@ function HeaderNavigation() {
               >
                 About
               </Nav.Link>
-              <div className="vr text-light"></div>
+              <div className="d-none d-lg-inline-block vr text-light"></div>
               <Nav.Link
-                href="/projects"
+                href="/work"
                 className="mx-xs-1 mx-lg-1 px-lg-2 main-nav-link"
               >
-                Projects
+                Work
               </Nav.Link>
-              <div className="vr text-light"></div>
+              <div className="d-none d-lg-inline-block vr text-light"></div>
               <Nav.Link
                 href="/contact"
                 className="ms-xs-1 ms-lg-1 ps-lg-2 main-nav-link"

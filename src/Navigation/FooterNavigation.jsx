@@ -10,7 +10,7 @@ function FooterNavigation() {
             className="me-xs-1 me-lg-2 pe-lg-2"
           >
             <img
-              src="/src/assets/images/linkedin-logo-sketch--bs-light.svg"
+              src="/src/_assets/images/linkedin-logo-sketch--bs-light.svg"
               height="50"
               alt="LinkedIn logo"
             />
@@ -20,7 +20,7 @@ function FooterNavigation() {
             className="mx-xs-1 mx-lg-4 px-lg-2"
           >
             <img
-              src="/src/assets/images/email-logo-sketch--bs-light.svg"
+              src="/src/_assets/images/email-logo-sketch--bs-light.svg"
               height="50"
               alt="Email logo"
             />
@@ -30,7 +30,7 @@ function FooterNavigation() {
             className="ms-xs-1 ms-lg-2 ps-lg-2"
           >
             <img
-              src="/src/assets/images/github-logo-sketch--bs-light.svg"
+              src="/src/_assets/images/github-logo-sketch--bs-light.svg"
               height="50"
               alt="Github logo"
             />
