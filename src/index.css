@@ -1,0 +1,34 @@
+@import "/src/assets/fonts/golden-ratio/GoldenRatio.css";
+@import "/src/assets/fonts/sogeh/Sogeh-ALL.css";
+@import "/src/assets/fonts/nervesans/Nervesans.css";
+
+header {
+  font-family: "GoldenRatioBold";
+}
+
+.navbar-brand {
+  font-size: 3rem;
+}
+
+.header-lowlight {
+  font-family: "GoldenRatioLight";
+  font-variant: small-caps;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  align-self: center;
+  text-align: center;
+}
+
+.main-nav-link {
+  color: #ffcb69; /* --bs-light #ffeccc 255, 236, 204 */
+  text-shadow: 0.5px 1px rgba(255, 236, 204, 0.4); /* --bs-warning #ffcb69 255, 203, 105 */ 
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
