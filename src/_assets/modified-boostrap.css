@@ -3833,7 +3833,7 @@ fieldset:disabled .btn {
   flex-wrap: inherit;
   align-items: center;
   justify-content: space-between;
-  max-width: 2500px;
+  max-width: 100vw; /* original: 2500px */
 }
 .navbar-brand {
   padding-top: 0.3125rem;

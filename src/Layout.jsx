@@ -6,7 +6,7 @@ import FooterNavigation from "./Navigation/FooterNavigation";
 function Layout() {
   return (
     <>
-      <Container fluid className="p-0">
+      <Container fluid className="p-0" id="header-nav-container">
         <Row>
           <Col>
             <header className="App-header">
@@ -15,22 +15,30 @@ function Layout() {
           </Col>
         </Row>
       </Container>
-      <Container fluid className="d-flex p-0" id="layout-container">
-        <Row className="p-2 min-vw-100 justify-content-center">
+      <Container
+        fluid
+        className="d-flex p-0 align-items-center w-100"
+        id="layout-container"
+      >
+        <Row
+          className="p-0 m-0 w-100 justify-content-center"
+          id="layout-outlet-row"
+        >
           <Col
             xs={{ span: 10, offest: 1 }}
-            className="d-flex justify-content-center"
+            className="d-flex justify-content-center p-0"
+            id="layout-outlet-col"
           >
             <Outlet />
           </Col>
         </Row>
       </Container>
-      <Container fluid className="p-0">
-        <Row>
-          <Col>
-            <FooterNavigation />
-          </Col>
-        </Row>
+      <Container
+        fluid
+        className="p-0 position-sticky-bottom"
+        id="footer-nav-container"
+      >
+        <FooterNavigation />
       </Container>
     </>
   );

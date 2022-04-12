@@ -2,7 +2,7 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 
 function Home() {
   return (
-    <Container fluid>
+    <Container fluid className="px-0">
       <Row xs={1} md={2}>
         <Col md={6} className="d-flex flex-column justify-content-center">
           <div className=" pb-2 pb-md-4">

@@ -8,6 +8,7 @@ function FooterNavigation() {
           <Nav.Link
             href="https://www.linkedin.com/in/keniebetts/"
             className="me-xs-1 me-lg-2 pe-lg-2"
+            target="_blank"
           >
             <img
               src="/src/_assets/images/linkedin-logo-sketch--bs-light.svg"
@@ -18,6 +19,7 @@ function FooterNavigation() {
           <Nav.Link
             href="mailto:kbetts001@gmail.com"
             className="mx-xs-1 mx-lg-4 px-lg-2"
+            target="_blank"
           >
             <img
               src="/src/_assets/images/email-logo-sketch--bs-light.svg"
@@ -28,6 +30,7 @@ function FooterNavigation() {
           <Nav.Link
             href="https://www.github.com/KenieB"
             className="ms-xs-1 ms-lg-2 ps-lg-2"
+            target="_blank"
           >
             <img
               src="/src/_assets/images/github-logo-sketch--bs-light.svg"

@@ -2,13 +2,7 @@ import { Container, Navbar, Nav } from "react-bootstrap";
 
 function HeaderNavigation() {
   return (
-    <Navbar
-      sticky="top"
-      collapseOnSelect
-      expand="lg"
-      bg="info"
-      className="bg-opacity-25"
-    >
+    <Navbar collapseOnSelect expand="lg" bg="info" className="bg-opacity-25">
       <Container className="ms-1 me-0">
         <Navbar.Brand href="/" className="text-light me-0">
           <img
