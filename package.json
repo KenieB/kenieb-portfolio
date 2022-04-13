@@ -1,8 +1,11 @@
 {
-  "name": "kenieb-portfolio",
-  "homepage": "https://www.kenie-betts.com/", 
+  "name": "kenieb-portfolio", 
   "private": false,
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KenieB/kenieb-portfolio.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",

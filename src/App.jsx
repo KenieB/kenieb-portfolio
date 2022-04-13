@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Layout from "./Layout";
 import Home from "./Home/Home";
 import About from "./About/About";
@@ -13,6 +13,7 @@ function App() {
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<Home />} />
+          <Route path="kenieb-portfolio" element={<Navigate replace to="/" />} />
           <Route path="home" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="work" element={<Work />} />
