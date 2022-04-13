@@ -1,6 +1,7 @@
 {
   "name": "kenieb-portfolio",
-  "private": true,
+  "homepage": "https://www.kenie-betts.com/", 
+  "private": false,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",

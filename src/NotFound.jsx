@@ -1,3 +1,4 @@
+import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 
 /**
@@ -9,11 +10,11 @@ function NotFound() {
   return (
     <>
       <Container fluid className="d-flex d-lg-none justify-content-center">
-        <Image fluid src="/src/assets/images/404-mobile.svg" />
+        <Image fluid src="/src/utilAssets/images/404-mobile.svg" />
       </Container>
 
       <Container fluid className="d-none d-lg-flex justify-content-center">
-        <Image fluid src="/src/assets/images/404.svg" />
+        <Image fluid src="/src/utilAssets/images/404.svg" />
       </Container>
     </>
   );

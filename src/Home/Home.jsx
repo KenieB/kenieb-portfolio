@@ -1,3 +1,4 @@
+import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 
 function Home() {
@@ -14,7 +15,7 @@ function Home() {
           <h1 className="display-2 text-center">Full-Stack Web Developer</h1>
         </Col>
         <Col>
-          <Image fluid src="/src/assets/images/home_avatar.svg" />
+          <Image fluid src="/src/utilAssets/images/home_avatar.svg" />
         </Col>
       </Row>
     </Container>
