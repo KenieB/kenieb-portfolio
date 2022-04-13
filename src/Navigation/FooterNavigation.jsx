@@ -11,7 +11,7 @@ function FooterNavigation() {
             target="_blank"
           >
             <img
-              src="/src/_assets/images/linkedin-logo-sketch--bs-light.svg"
+              src="/src/assets/images/linkedin-logo-sketch--bs-light.svg"
               height="50"
               alt="LinkedIn logo"
             />
@@ -22,7 +22,7 @@ function FooterNavigation() {
             target="_blank"
           >
             <img
-              src="/src/_assets/images/email-logo-sketch--bs-light.svg"
+              src="/src/assets/images/email-logo-sketch--bs-light.svg"
               height="50"
               alt="Email logo"
             />
@@ -33,7 +33,7 @@ function FooterNavigation() {
             target="_blank"
           >
             <img
-              src="/src/_assets/images/github-logo-sketch--bs-light.svg"
+              src="/src/assets/images/github-logo-sketch--bs-light.svg"
               height="50"
               alt="Github logo"
             />

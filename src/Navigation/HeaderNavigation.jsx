@@ -6,7 +6,7 @@ function HeaderNavigation() {
       <Container className="ms-1 me-0">
         <Navbar.Brand href="/" className="text-light me-0">
           <img
-            src="/src/_assets/images/avatar.svg"
+            src="/src/assets/images/avatar.svg"
             width="125"
             className="d-inline-flex align-middle"
             alt="Developer KenieB logo"
