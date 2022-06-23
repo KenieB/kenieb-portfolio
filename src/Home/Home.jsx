@@ -15,7 +15,7 @@ function Home() {
           <h1 className="display-2 text-center">Full-Stack Web Developer</h1>
         </Col>
         <Col>
-          <Image fluid src="/src/public/images/home_avatar.svg" />
+          <Image fluid src="/images/home_avatar.svg" />
         </Col>
       </Row>
     </Container>

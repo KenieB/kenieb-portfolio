@@ -6,6 +6,6 @@ export default defineConfig({
   base: "/kenieb-portfolio/",
   plugins: [react()],
   build: {
-    minify: false
+    //minify: false
   }
 });

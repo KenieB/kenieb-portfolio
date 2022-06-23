@@ -2,22 +2,17 @@ import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import Layout from "./Layout";
 import Home from "./Home/Home";
-import About from "./About/About";
-import Contact from "./Contact/Contact";
-import Work from "./Work/Work";
 import NotFound from "./NotFound";
+import PublicRoutes from "./PublicRoutes";
 
 function App() {
   return (
     <div id="app-div" className="App vh-100">
       <Routes>
         <Route element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="kenieb-portfolio" element={<Navigate replace to="/" />} />
-          <Route path="home" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="work" element={<Work />} />
-          <Route path="contact" element={<Contact />} />
+          <Route index element={<Navigate replace to="/kenieb-portfolio" />} />
+          <Route path="kenieb-portfolio" element={<Home />} />
+          <Route path="kenieb-portfolio/*" element={<PublicRoutes />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

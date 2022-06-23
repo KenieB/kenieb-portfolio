@@ -1,12 +1,12 @@
-@charset "UTF-8"; /*!
+@charset "UTF-8"; /*
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import "/src/public/fonts/sogeh/Sogeh-ALL.css";
-@import "/src/public/fonts/nervesans/Nervesans.css";
-@import "/src/public/fonts/golden-ratio/GoldenRatio.css";
+@import "../public/fonts/sogeh/Sogeh-ALL.css";
+@import "../public/fonts/nervesans/Nervesans.css";
+@import "../public/fonts/golden-ratio/GoldenRatio.css";
 
 :root {
   --bs-blue: #0d6efd;

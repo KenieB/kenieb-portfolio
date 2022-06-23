@@ -1,6 +1,6 @@
-@import "/src/public/fonts/golden-ratio/GoldenRatio.css";
-@import "/src/public/fonts/sogeh/Sogeh-ALL.css";
-@import "/src/public/fonts/nervesans/Nervesans.css";
+@import "../public/fonts/golden-ratio/GoldenRatio.css";
+@import "../public/fonts/sogeh/Sogeh-ALL.css";
+@import "../public/fonts/nervesans/Nervesans.css";
 
 header {
   font-family: "GoldenRatioBold";
