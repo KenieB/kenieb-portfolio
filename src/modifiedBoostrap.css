@@ -4,9 +4,9 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import "/src/utilAssets/fonts/sogeh/Sogeh-ALL.css";
-@import "/src/utilAssets/fonts/nervesans/Nervesans.css";
-@import "/src/utilAssets/fonts/golden-ratio/GoldenRatio.css";
+@import "/src/public/fonts/sogeh/Sogeh-ALL.css";
+@import "/src/public/fonts/nervesans/Nervesans.css";
+@import "/src/public/fonts/golden-ratio/GoldenRatio.css";
 
 :root {
   --bs-blue: #0d6efd;
