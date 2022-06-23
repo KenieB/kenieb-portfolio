@@ -1,5 +1,8 @@
 import React from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
+import linkedInLogo from "/images/linkedin-logo-sketch--bs-light.svg";
+import mailToLogo from "/images/email-logo-sketch--bs-light.svg";
+import githubLogo from "/images/github-logo-sketch--bs-light.svg";
 
 function FooterNavigation() {
   return (
@@ -11,33 +14,21 @@ function FooterNavigation() {
             className="me-xs-1 me-lg-2 pe-lg-2"
             target="_blank"
           >
-            <img
-              src="/images/linkedin-logo-sketch--bs-light.svg"
-              height="50"
-              alt="LinkedIn logo"
-            />
+            <img src={linkedInLogo} height="50" alt="LinkedIn logo" />
           </Nav.Link>
           <Nav.Link
             href="mailto:kbetts001@gmail.com"
             className="mx-xs-1 mx-lg-4 px-lg-2"
             target="_blank"
           >
-            <img
-              src="/images/email-logo-sketch--bs-light.svg"
-              height="50"
-              alt="Email logo"
-            />
+            <img src={mailToLogo} height="50" alt="Email logo" />
           </Nav.Link>
           <Nav.Link
             href="https://www.github.com/KenieB"
             className="ms-xs-1 ms-lg-2 ps-lg-2"
             target="_blank"
           >
-            <img
-              src="/images/github-logo-sketch--bs-light.svg"
-              height="50"
-              alt="Github logo"
-            />
+            <img src={githubLogo} height="50" alt="Github logo" />
           </Nav.Link>
         </Nav>
       </Container>

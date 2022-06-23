@@ -1,6 +1,104 @@
-@import "../public/fonts/golden-ratio/GoldenRatio.css";
-@import "../public/fonts/sogeh/Sogeh-ALL.css";
-@import "../public/fonts/nervesans/Nervesans.css";
+@font-face {
+  font-family: "GoldenRatioBold";
+  src: url("/fonts/golden-ratio/GoldenRatio-Bold.eot");
+  src: url("/fonts/golden-ratio/GoldenRatio-Bold.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/golden-ratio/GoldenRatio-Bold.woff2") format("woff2"),
+    url("/fonts/golden-ratio/GoldenRatio-Bold.woff") format("woff"),
+    url("/fonts/golden-ratio/GoldenRatio-Bold.ttf") format("truetype"),
+    url("/fonts/golden-ratio/GoldenRatio-Bold.svg#GoldenRatioBold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GoldenRatioLight";
+  src: url("/fonts/golden-ratio/GoldenRatio-Light.eot");
+  src: url("/fonts/golden-ratio/GoldenRatio-Light.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/golden-ratio/GoldenRatio-Light.woff2") format("woff2"),
+    url("/fonts/golden-ratio/GoldenRatio-Light.woff") format("woff"),
+    url("/fonts/golden-ratio/GoldenRatio-Light.ttf") format("truetype"),
+    url("/fonts/golden-ratio/GoldenRatio-Light.svg#GoldenRatioLight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GoldenRatioRegular";
+  src: url("/fonts/golden-ratio/GoldenRatio-Regular.eot");
+  src: url("/fonts/golden-ratio/GoldenRatio-Regular.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/golden-ratio/GoldenRatio-Regular.woff2") format("woff2"),
+    url("/fonts/golden-ratio/GoldenRatio-Regular.woff") format("woff"),
+    url("/fonts/golden-ratio/GoldenRatio-Regular.ttf") format("truetype"),
+    url("/fonts/golden-ratio/GoldenRatio-Regular.svg#GoldenRatioRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nervesans";
+  src: url("/fonts/nervesans/Nervesans-Light.eot");
+  src: local("Nerve sans Light"), local("Nervesans-Light"),
+    url("/fonts/nervesans/Nervesans-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/nervesans/Nervesans-Light.woff2") format("woff2"),
+    url("/fonts/nervesans/Nervesans-Light.woff") format("woff"),
+    url("/fonts/nervesans/Nervesans-Light.ttf") format("truetype"),
+    url("/fonts/nervesans/Nervesans-Light.svg#Nervesans-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Webfont: SogehBlack */
+@font-face {
+  font-family: "SogehBlack";
+  src: url("/fonts/sogeh/Sogeh-Black.eot"); /* IE9 Compat Modes */
+  src: url("/fonts/sogeh/Sogeh-Black.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("/fonts/sogeh/Sogeh-Black.woff") format("woff"),
+    /* Modern Browsers */ url("/fonts/sogeh/Sogeh-Black.woff2") format("woff2"),
+    /* Modern Browsers */ url("/fonts/sogeh/Sogeh-Black.ttf") format("truetype"); /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Sogeh-Bold */
+@font-face {
+  font-family: "SogehBold";
+  src: url("/fonts/sogeh/Sogeh-Bold.eot"); /* IE9 Compat Modes */
+  src: url("/fonts/sogeh/Sogeh-Bold.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("/fonts/sogeh/Sogeh-Bold.woff") format("woff"),
+    /* Modern Browsers */ url("/fonts/sogeh/Sogeh-Bold.woff2") format("woff2"),
+    /* Modern Browsers */ url("/fonts/sogeh/Sogeh-Bold.ttf") format("truetype"); /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Sogeh-Regular */
+@font-face {
+  font-family: "SogehRegular";
+  src: url("/fonts/sogeh/Sogeh-Regular.eot"); /* IE9 Compat Modes */
+  src: url("/fonts/sogeh/Sogeh-Regular.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("/fonts/sogeh/Sogeh-Regular.woff") format("woff"),
+    /* Modern Browsers */ url("/fonts/sogeh/Sogeh-Regular.woff2") format("woff2"),
+    /* Modern Browsers */ url("/fonts/sogeh/Sogeh-Regular.ttf") format("truetype"); /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Sogeh-Thin */
+@font-face {
+  font-family: "SogehThin";
+  src: url("/fonts/sogeh/Sogeh-Thin.eot"); /* IE9 Compat Modes */
+  src: url("/fonts/sogeh/Sogeh-Thin.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("/fonts/sogeh/Sogeh-Thin.woff") format("woff"),
+    /* Modern Browsers */ url("/fonts/sogeh/Sogeh-Thin.woff2") format("woff2"),
+    /* Modern Browsers */ url("/fonts/sogeh/Sogeh-Thin.ttf") format("truetype"); /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
 
 header {
   font-family: "GoldenRatioBold";

@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
+import avatar from "/images/avatar.svg";
 
 function HeaderNavigation() {
   return (
@@ -7,7 +8,7 @@ function HeaderNavigation() {
       <Container className="ms-1 me-0">
         <Navbar.Brand href="/" className="text-light me-0">
           <img
-            src="/images/avatar.svg"
+            src={avatar}
             width="125"
             className="d-inline-flex align-middle"
             alt="Developer KenieB logo"

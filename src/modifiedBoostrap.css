@@ -4,9 +4,20 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import "../public/fonts/sogeh/Sogeh-ALL.css";
-@import "../public/fonts/nervesans/Nervesans.css";
-@import "../public/fonts/golden-ratio/GoldenRatio.css";
+
+@font-face {
+  font-family: "Nervesans";
+  src: url("/fonts/nervesans/Nervesans-Light.eot");
+  src: local("Nerve sans Light"), local("Nervesans-Light"),
+    url("/fonts/nervesans/Nervesans-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/nervesans/Nervesans-Light.woff2") format("woff2"),
+    url("/fonts/nervesans/Nervesans-Light.woff") format("woff"),
+    url("/fonts/nervesans/Nervesans-Light.ttf") format("truetype"),
+    url("/fonts/nervesans/Nervesans-Light.svg#Nervesans-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
 
 :root {
   --bs-blue: #0d6efd;
@@ -53,9 +64,9 @@
   --bs-body-bg-rgb: 126, 101, 84;
   --bs-font-sans-serif: "Nervesans", system-ui, -apple-system, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";/*font*/
   --bs-font-monospace: "SogehRegular", SFMono-Regular, Menlo, Monaco, Consolas,
-    "Liberation Mono", "Courier New", monospace;
+    "Liberation Mono", "Courier New", monospace;/*font*/
   --bs-gradient: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0.15),
