@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   base: "/kenieb-portfolio/",
   plugins: [react()],
-  build: {
+  //build: {
     //minify: false
-  }
+  //}
 });
