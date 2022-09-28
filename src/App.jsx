@@ -10,8 +10,9 @@ function App() {
     <div id="app-div" className="App vh-100">
       <Routes>
         <Route element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="/*" element={<PublicRoutes />} />
+          <Route index element={<Navigate replace to="/kenieb-portfolio" />} />
+          <Route path="kenieb-portfolio" element={<Home />} />
+          <Route path="kenieb-portfolio/*" element={<PublicRoutes />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
